@@ -17,7 +17,6 @@ console.log(list.length);
 for (var i = 0; i < list.length; i++) {
     try {
         var list2 = list[i].getElementsByClassName("d");
-        console.log(list2[10].getElementsByClassName("j-select")[0].attributes[1].value);
         list2[grade].getElementsByClassName("j-select")[0].checked = true;
     } catch (errror) {
         console.log(i + "!");
